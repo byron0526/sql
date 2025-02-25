@@ -1,5 +1,7 @@
 感謝您點進來，此為視覺化mysql的腳本，透過./sql.sh可以直接進入mysql並透過表單選擇的方式輕鬆創建使用者帳號
+
 描述檔如下，請按下方步驟執行
+
 使用者要先自己下載mysql
 ```
 sudo apt update
@@ -7,6 +9,7 @@ sudo apt install mariadb-server
 sudo mysql
 ```
 輸入以上指令可以進入mysql
+
 接著在mysql中輸入
 ```
 GRANT ALL   #授予用戶「所有權限」
