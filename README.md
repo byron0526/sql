@@ -29,4 +29,10 @@ WITH GRANT OPTION;
 ```
 mysql -u"帳號名子" -p"密碼" -e "GRANT $perm_str ON mydb.* TO '$user'@localhost IDENTIFIED BY '$password';"
 ```
-更改為你管理者的user與密碼後，便可跳出去，並使用./sql.sh執行此程式碼
+更改為你管理者的user與密碼後，便可跳出去
+
+輸入下方指令
+```
+chmod +x sql.sh
+```
+並使用./sql.sh執行此程式碼
