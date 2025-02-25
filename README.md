@@ -1,5 +1,9 @@
 感謝您點進來，此為視覺化mysql的腳本，透過./sql.sh可以直接進入mysql並透過表單選擇的方式輕鬆創建使用者帳號
 
+可以透過以下指令先clone我們的程式碼
+```
+git clone https://github.com/byron0526/sql
+```
 描述檔如下，請按下方步驟執行
 
 使用者要先自己下載mysql
