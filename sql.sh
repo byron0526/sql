@@ -15,7 +15,7 @@ done
 
 perm_str=`echo "$perm_str" | sed 's/^, //'`
 dialog --title "選單模式" --menu "請確認以下資訊" 10 50 2 1 "使用者名稱: $user" 2 "使用者權限:$perm_str"
-mysql -uadmin -p123456 -e "GRANT $perm_str ON mydb.* TO '$user'@localhost IDENTIFIED BY '$password';"
+mysql -u"使用者名稱" -p"使用者密碼" -e "GRANT $perm_str ON mydb.* TO '$user'@localhost IDENTIFIED BY '$password';"
 
 if [ $? -eq 0 ]; then
         echo "已新增使用者"
